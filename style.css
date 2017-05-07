@@ -47,15 +47,18 @@ ul#menu-header-menu>li:hover>ul.sub-menu>li
 {
     display: block;
 }
+ul#menu-header-menu>li.current-menu-ancestor{
+	font-weight: bold;
+}
+ul#menu-header-menu > li.current-menu-item>ul, ul#menu-header-menu > li.current-menu-ancestor>ul {
+    font-weight: normal;
+}
 ul#menu-header-menu>li>ul.sub-menu>li>ul>li{
     float: left;
     list-style-type: none;
     width: 100%;
     white-space: nowrap;
     overflow: visible;
-}
-li#menu-item-277{
-    width: 6em;
 }
 div.entry-content form#login{
     width: 23em;
