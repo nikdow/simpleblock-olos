@@ -1,0 +1,106 @@
+/*
+ Theme Name:   Simpleblock OLOS
+ Theme URI:    http://www.cbdweb.net/
+ Description:  OLOS child of CBDWeb SimpleBlock theme
+ Author:       Nik Dow
+ Author URI:   http://www.cbdweb.net/
+ Template:     simpleblock
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         top bottom menu
+ Text Domain:  simpleblock-olos
+*/
+
+table.contentpaneopen table {
+    margin-bottom: 20px;
+}
+form.bop-nav-search input.search-submit, form.bop-nav-search>label>span {display: none;}
+
+h1.site-title{
+    display: none;
+}
+div#content{
+	margin-top: 0;
+}
+body{
+    background-image: url(/wp-content/uploads/2017/04/olos_logo.png);
+    background-repeat: no-repeat;
+    background-position-x: 7%;
+    background-position-y: 60px;
+}
+div#primary{ padding-top: 190px;}
+
+ul#menu-header-menu>li>ul.sub-menu{
+    -webkit-padding-start: 0;
+    padding-left: 0;
+}
+ul#menu-header-menu>li>ul.sub-menu>li{
+  list-style-type: none;
+	display: none;
+	width: 100%;
+	white-space: nowrap;
+	overflow: visible;
+}
+ul#menu-header-menu>li:hover>ul.sub-menu>li
+{
+	display: block;
+}
+ul#menu-header-menu>li>ul.sub-menu>li>ul>li{
+    float: left;
+    list-style-type: none;
+    width: 100%;
+    white-space: nowrap;
+    overflow: visible;
+}
+li#menu-item-277{
+	width: 6em;
+}
+div.entry-content form#login{
+    width: 23em;
+}
+div.entry-content form#login>ul>li>input[type="submit"]{
+    margin-bottom: 30px;	
+}
+div.entry-content form#login>ul>li{
+    list-style: none;
+    line-height: 2;
+}
+div.entry-content form#login>ul>li:nth-child(odd){
+    float: left;
+    clear: both;
+}
+div.entry-content form#login>ul>li:nth-child(even){
+    float: right;
+}
+
+div#footer_widget>div#login>ul>li>a{
+    color: #CCF;
+    text-decoration: none;
+}
+div#footer_widget form#login, div#footer_widget>div#login{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 90%;
+}
+div#footer_widget form#login>ul, div#footer_widget>div#login>ul {
+    margin-top: -1em;
+}
+div#footer_widget form#login>ul>li {
+    list-style: none;
+    float: left;
+}
+div#footer_widget form#login>ul>li>input{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+div#footer_widget>div#login>ul>li{
+    float: left;
+    margin-right: 1em;
+}
+div#footer_widget>div.error_wid_login{
+    float: left;
+    border: none;
+    width: auto;
+    clear: none !important;
+    padding: 2px;
+}
