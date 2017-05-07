@@ -37,14 +37,15 @@ ul#menu-header-menu>li>ul.sub-menu{
 }
 ul#menu-header-menu>li>ul.sub-menu>li{
   list-style-type: none;
-	display: none;
-	width: 100%;
-	white-space: nowrap;
-	overflow: visible;
+    display: none;
+    width: 100%;
+    white-space: nowrap;
+    overflow: visible;
+    clear: left;
 }
 ul#menu-header-menu>li:hover>ul.sub-menu>li
 {
-	display: block;
+    display: block;
 }
 ul#menu-header-menu>li>ul.sub-menu>li>ul>li{
     float: left;
@@ -54,7 +55,7 @@ ul#menu-header-menu>li>ul.sub-menu>li>ul>li{
     overflow: visible;
 }
 li#menu-item-277{
-	width: 6em;
+    width: 6em;
 }
 div.entry-content form#login{
     width: 23em;
