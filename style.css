@@ -30,7 +30,9 @@ body{
     background-position-y: 60px;
 }
 div#primary{ padding-top: 190px;}
-
+div#content{ // no margin needed up top because of logo area, still need margin at bottom for footer menu
+	margin: 0 auto 4em;
+}
 ul#menu-header-menu>li>ul.sub-menu{
     -webkit-padding-start: 0;
     padding-left: 0;
