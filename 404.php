@@ -6,7 +6,7 @@
 get_header();
 
 $page_requested = get_page_by_path($_SERVER['REQUEST_URI']);
-$page_status = get_post_status($page_requested->ID);
+$page_status = get_post_status($page_requested?->ID);
 ?>
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
